@@ -995,10 +995,6 @@ public:
 
 void main() {
 
-	/////////!!!!!!!!!!!!!!!!!!CREARE FISIERE---MENTIONEZ CA AM OBSERVAT IN ULTIMELE MOMENTE CA NU MERGE CODUL DACA NU AM FISIERELE CREATE,
-	//NU AM MAI AVUT TIMP SA IMI DAU SEAMA DE CE, ASA CA V-AS RUGA SA COMENTATI CODUL DIN MAIN, SA CREATI FISIERELE FOLOSIND CODUL DE MAI JOS,
-	//SI DUPA SA RULATI.
-	////IMI CER SCUZE!!
 	float* mariaTastare = new float[4] {0.1, 0.2, 0.4, 0.4};
 	float* leoTastare = new float[3] {0.5, 0.6, 0.4};
 	float* emaTastare = new float[5] {0.9, 0.3, 0.4, 0.5, 0.2};
@@ -1213,12 +1209,12 @@ void main() {
 	cout << randomPremium("euro") << " "; cout << randomPremium("lira") << " "; cout << randomPremium("dolar") << " ";
 	anonim.comparaInteractiunea(random);
 
-	//random.aflaUt("profileUseri.txt", random);   /////nu mai merge algoritmul aparent
+	//random.aflaUt("profileUseri.txt", random); 
 	/*randomPremium.citesteUSERidinFisier("sesiuniUP.txt", randomPremium);*/
 	//cout << randomPremium;
 
 
-	/*cout << "******MENIU PT GESTIONAREA UTILIZATORILOR******" << endl;
+	cout << "******MENIU PT GESTIONAREA UTILIZATORILOR******" << endl;
 	cout << "===========================================" << endl;
 	cout << "[1] Adauga un utilizator" << endl;
 	cout << "[2] Adauga un utilizator Premium" << endl;
@@ -1298,7 +1294,7 @@ void main() {
 		default:
 			continue;
 		}
-	}*/
+	}
 
 	/*delete[]useri7;
 	delete[]usersFisier;
